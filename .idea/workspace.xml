@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/include-price.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/include-price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iKQmMnzqDqdAT1dUE8ad7KpWYK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="" />
+      <created>1601653962078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601653962078</updated>
+      <workItem from="1601653963209" duration="140000" />
+      <workItem from="1601654104690" duration="1572000" />
+      <workItem from="1601732474725" duration="3392000" />
+      <workItem from="1601798626640" duration="14140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1601654020273">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1601654020273" />
+    <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="547" y="297" width="474" height="201" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1601655027121" />
+  </component>
+</project>

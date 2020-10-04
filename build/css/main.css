@@ -11069,7 +11069,7 @@ input {
   width: 101%;
   height: 110vh;
   z-index: 10;
-  background-image: url("../img/intro__background-new.png");
+  background-image: url("../img/intro__background-balcon.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -11078,6 +11078,28 @@ input {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column; }
+
+.intro-price {
+  position: relative;
+  padding: 1rem; }
+
+.intro-price__bg {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-filter: blur(3px);
+          filter: blur(3px); }
+
+.intro-price__text {
+  position: relative;
+  z-index: 2;
+  font-size: 1.75rem;
+  text-transform: uppercase; }
 
 .intro__calc-text,
 .intro__calc {
@@ -11137,7 +11159,7 @@ input {
   -webkit-background-clip: text;
   background-image: linear-gradient(170deg, white 0%, #ffd227 35%, #ff8200 65%, white 100%);
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size: 4.5em;
   line-height: 1; }
 
@@ -11304,20 +11326,70 @@ input {
     background: rgba(255, 255, 255, 0.9); } }
 
 .calc {
-  margin-top: -6em;
+  margin-top: -3em;
   position: relative; }
 
 .calc .item__header {
   padding-left: 23px; }
 
 .calc__container {
+  padding-top: 5em;
+  padding-bottom: 5em;
   position: relative;
-  z-index: 99;
-  background-image: url("../img/calc__backgound-new.png");
+  z-index: 4;
+  background-image: url("../img/calc__background-balcon.png");
   min-height: 600px;
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
   background-repeat: no-repeat; }
+
+.interrogation-container {
+  padding-top: 1rem; }
+
+.interrogation__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem; }
+
+.interrogation-bg {
+  border-radius: 341px;
+  background: rgba(0, 0, 0, 0.1); }
+
+.interrogation__status-container {
+  width: 85%; }
+
+.interrogation__status-bar {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  width: 25%;
+  height: 35px;
+  border-radius: 23px;
+  background-color: #ff8200; }
+
+.interrogation__status {
+  text-align: center;
+  font-size: 1.5rem;
+  height: 35px;
+  width: 100%;
+  background: url("../img/interrogation__status.png") no-repeat;
+  background-size: 100% 100%; }
+
+.interrogation__list {
+  text-align: center; }
+
+.interrogation__item {
+  padding-bottom: 1rem; }
+
+.interrogation__item-name {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #524f4f; }
+
+.calc__header-before {
+  font-size: 2.2rem;
+  font-weight: bold; }
 
 .calc__input-text {
   text-align: center;
@@ -11460,15 +11532,17 @@ input {
     height: auto !important; } }
 
 .include-price__container {
-  background: url("../img/include-price__background-new.png") no-repeat;
+  background: url("../img/include-price__background-balcon.png") no-repeat;
   background-size: 100% 100% !important;
   background-position: center;
-  min-height: 400px;
+  min-height: 500px;
   height: 50vh;
   position: relative; }
 
 .include-price {
-  margin-top: 120px; }
+  margin-top: -34px;
+  position: relative;
+  z-index: 1000; }
 
 .include-price__inner {
   position: relative;
@@ -11577,14 +11651,20 @@ input {
   background-repeat: no-repeat; }
 
 .reviews__title-before {
-  margin: 0 auto 80px;
+  margin: 0 auto 10px;
   max-width: 600px;
   text-align: center;
   font-size: 1.7em;
   text-transform: uppercase; }
 
+.trouble-item__header {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 .reviews__items {
-  margin-top: 100px; }
+  margin-top: 1rem; }
 
 .reviews__item-container {
   position: relative;
@@ -11597,8 +11677,6 @@ input {
   text-transform: uppercase; }
 
 .reviews__content {
-  min-height: 300px;
-  overflow-y: auto;
   padding-top: 10px;
   font-size: calc(16px + 0.7vw); }
 
