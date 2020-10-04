@@ -18677,6 +18677,13 @@ function getLocation() {
 }
 
 function showPosition(position) {
+    let result = $.get("https://geocode-maps.yandex.ru/1.x", {
+        geocode: position.coords.longitude + ", " + position.coords.latitude,
+        apikey: "5f465faa-835b-4029-a00d-fd2f62c28240",
+        kind: "locality",
+        format: "json"
+    });
+    console.log(result);
     console.log("Latitude: " + position.coords.latitude +
         "<br>Longitude: " + position.coords.longitude);
 }
@@ -19235,6 +19242,26 @@ let mySwiper2 = new Swiper('.swiper-container-2', {
         }
     },
 });
+
+let interrogation = new Swiper('.interrogation-swiper', {
+    effect: 'fade',
+    speed: 100,
+    noSwiping: true,
+    onlyExternal: true,
+    allowTouchMove: false,
+    slidesPerView: 1,
+});
+
+
+var interr = 1;
+$(".interrogation__item").on("click", function () {
+    interrogation.slideNext();
+    if (interr < 4) {
+        interr++;
+        $(".interrogation__status span").text(interr + "/4");
+        $(".interrogation__status-bar").css("width", (interr * 25) + "%");
+    }
+})
 
 var mySwiper3 = new Swiper('.services__swiper-container', {
     centeredSlides: true,

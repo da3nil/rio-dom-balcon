@@ -11368,6 +11368,19 @@ input {
   border-radius: 23px;
   background-color: #ff8200; }
 
+.interrogation-container .swiper-slide {
+  opacity: 0 !important; }
+
+.interrogation-container .swiper-slide-active {
+  opacity: 1 !important; }
+
+.intro__title-before {
+  padding-top: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 2.7rem; }
+
 .interrogation__status {
   text-align: center;
   font-size: 1.5rem;
