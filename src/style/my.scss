@@ -1498,11 +1498,10 @@ input {
 }
 
 .footer__table {
-  background: url("../img/footer__table-full.png") no-repeat;
-  background-size: contain;
-  background-position: center top;
-  height: 492px;
-  width: auto;
+  background: url("../img/balcon.png") no-repeat;
+  background-size: 100% 100%;
+  height: 1052px;
+  width: 100%;
 }
 
 .footer__container {
@@ -1555,11 +1554,10 @@ input {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("../img/footer__background-big.png");
+  background-image: url("../img/balcon-back.png");
   background-repeat: no-repeat;
-  background-position: center bottom;
-  //background-size: 100%;
-  height: 1330px;
+  background-position: center top;
+  height: 1120px;
   width: 100%;
 }
 
