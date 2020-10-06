@@ -18667,6 +18667,17 @@ k("input"),watchDataMask:!1,byPassKeys:[9,16,17,18,36,37,38,39,40,91],translatio
 })();
 
 // Импортируем другие js-файлы
+// Change header when scroll changed
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $(".intro__head").addClass("scrolled");
+    } else {
+        $(".intro__head").removeClass("scrolled");
+    }
+});
+
 // Geolocation
 function getLocation() {
     if (navigator.geolocation) {
@@ -19316,8 +19327,4 @@ $(".calc__btn-next").click(function () {
 
 $(".calc__btn-prev").click(function () {
     mySwiper4.slidePrev()
-});
-
-$('#exampleModal').on('show.bs.modal', function () {
-
 });

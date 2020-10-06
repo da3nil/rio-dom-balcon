@@ -34,6 +34,26 @@ body {
   //height: 100%;
 }
 
+.scrolled {
+  transition: 0.2s;
+  position: fixed;
+  z-index: 100000000;
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  width: 100%;
+  background-color: rgba(0,0,0,1);
+}
+
+@media screen and (max-device-width: 767px) {
+  .scrolled {
+    position: sticky;
+    background: none;
+  }
+}
+
+
+
 #svg-resize {
   height: 40px;
   width: 40px;
@@ -404,13 +424,13 @@ input {
 // intro
 .intro {
   position: relative;
-  z-index: 5;
+  z-index: 100000000;
 }
 .intro__container {
   width: 101%; // xD
   height: 110vh;
   z-index: 10;
-  background-image: url("../img/intro__background-balcon.png");
+  background-image: url("../img/1_Ekran.png");
   //background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
