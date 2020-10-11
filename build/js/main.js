@@ -18667,6 +18667,11 @@ k("input"),watchDataMask:!1,byPassKeys:[9,16,17,18,36,37,38,39,40,91],translatio
 })();
 
 // Импортируем другие js-файлы
+// open city model after 15s
+setTimeout(function () {
+    $("#cityModal").modal('show');
+}, 10000)
+
 // Change header when scroll changed
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();

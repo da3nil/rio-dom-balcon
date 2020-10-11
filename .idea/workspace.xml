@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
       <workItem from="1602306267206" duration="1786000" />
       <workItem from="1602318404546" duration="4288000" />
       <workItem from="1602343851297" duration="4010000" />
-      <workItem from="1602405067328" duration="5942000" />
+      <workItem from="1602405067328" duration="7085000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -84,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602411906528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mobile responsive">
+      <created>1602412288701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602412288701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,26 +104,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="mobile responsive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1602411905668">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1602412288316">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602411905668" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602412288316" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="132" y="86" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1601815201893" />
-    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1602184898054">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1602412463105">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602184898054" />
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602412463105" />
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1601655027121" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1602411910299">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1602412291159">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1602411910299" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1602412291159" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
