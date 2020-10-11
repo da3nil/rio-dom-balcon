@@ -5,24 +5,29 @@
                 <div class="col-md-6 offset-md-3">
                     <form action="" method="post">
                         <div class="support__inner">
-                            <div class="support__header">
-                                Заказать обратный звонок для консультации
+                            <div class="modal-info">
+                                <div class="support__header">
+                                    Заказать обратный звонок для консультации
+                                </div>
+                                <div class="support__city mt-2">
+                                    <span class="d-inline">Ваш город:</span>
+                                    <span class="support__select" data-toggle="modal" data-target="#cityModal">ВЫБРАТЬ ГОРОД</span>
+                                    <input id="city__input" name="city" value="ВЫБРАТЬ ГОРОД" type="hidden">
+                                </div>
+                                <div class="form-group mt-4">
+                                    <input class="support__input" id="support-name" type="text" name="name" placeholder="имя">
+                                </div>
+                                <div class="form-group">
+                                    <input class="support__input phone"  id="support-phone" type="text" name="phone" placeholder="номер телефона">
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn-orange support__btn w-100" onclick="supportSend()" style="border-radius: 15px">
+                                        ОТПРАВИТЬ ЗАЯВКУ
+                                    </button>
+                                </div>
                             </div>
-                            <div class="support__city mt-2">
-                                <span class="d-inline">Ваш город:</span>
-                                <span class="support__select" data-toggle="modal" data-target="#cityModal">ВЫБРАТЬ ГОРОД</span>
-                                <input id="city__input" name="city" value="ВЫБРАТЬ ГОРОД" type="hidden">
-                            </div>
-                            <div class="form-group mt-4">
-                                <input class="support__input" id="support-name" type="text" name="name" placeholder="имя">
-                            </div>
-                            <div class="form-group">
-                                <input class="support__input phone"  id="support-phone" type="text" name="phone" placeholder="номер телефона">
-                            </div>
-                            <div class="form-group">
-                                <button type="button" class="btn-orange support__btn w-100" onclick="supportSend()" style="border-radius: 15px">
-                                    ОТПРАВИТЬ ЗАЯВКУ
-                                </button>
+                            <div class="modal-success">
+                                <img src="img/logo-green.png" alt="">
                             </div>
                         </div>
                     </form>
