@@ -11892,7 +11892,6 @@ input {
 
 .support__inner {
   position: relative;
-  z-index: 10000000;
   padding: 2em 2.5em 8em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.27); }
@@ -11933,6 +11932,7 @@ input {
   text-transform: uppercase; }
 
 .footer__table {
+  background: url("../img/balcon.png") no-repeat;
   background-size: 100% 100%;
   height: 1052px;
   width: 100%; }
@@ -11981,10 +11981,12 @@ input {
   background-image: url("../img/balcon-back.png");
   background-repeat: no-repeat;
   background-position: center top;
-  height: 1120px;
+  background-size: cover;
+  height: 996px;
   width: 100%; }
 
 .footer__table-container {
+  pointer-events: none;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -12003,7 +12005,9 @@ input {
   .footer__content {
     padding-top: 10px; }
   .footer__table-container {
-    top: -8em; } }
+    top: -8em; }
+  .footer__table {
+    background: none; } }
 
 @media screen and (max-device-width: 450px) {
   .footer__table {
