@@ -10771,17 +10771,19 @@ html {
   transition: 0.2s;
   position: fixed;
   z-index: 100000000;
-  top: 0;
-  padding-top: 15px;
-  padding-bottom: 9px;
+  padding-top: 12px !important;
+  padding-bottom: 0;
+  top: -5px;
   width: 100%;
   background-color: black; }
 
 @media screen and (max-device-width: 767px) {
   .scrolled {
-    position: -webkit-sticky;
-    position: sticky;
+    position: static;
     background: none; } }
+
+.modal {
+  z-index: 100000000000000; }
 
 #svg-resize {
   height: 40px;
@@ -11222,6 +11224,16 @@ input {
 .intro__title-top {
   font-size: 1.5em; }
 
+@media screen and (max-device-width: 767px) {
+  .intro__container {
+    min-height: auto;
+    height: auto;
+    padding-bottom: 5rem; }
+  .intro__title div {
+    text-align: center; }
+  .intro__title-before {
+    text-align: center !important; } }
+
 @media screen and (max-device-width: 991px) {
   .intro__title div {
     font-size: 3.6em; } }
@@ -11558,7 +11570,16 @@ input {
     width: 100%;
     margin: 0; }
   .calc__container {
-    height: auto !important; } }
+    height: auto !important; }
+  .interrogation-bg {
+    background: none; }
+  .interrogation-bg__mobile {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgba(0, 0, 0, 0.1); }
+  .interrogation__title {
+    padding-left: 0;
+    text-align: center; } }
 
 .include-price__container {
   background: url("../img/include-price__background-balcon.png") no-repeat;
@@ -11745,6 +11766,14 @@ input {
   border-radius: 3px;
   background: linear-gradient(to top, #ff7200 0%, #ffba00 100%); }
 
+@media screen and (max-device-width: 767px) {
+  .trouble-item__header {
+    font-size: 1.2rem; } }
+
+@media screen and (max-device-width: 400px) {
+  .trouble-item__header {
+    font-size: 1rem; } }
+
 .services {
   margin-top: 120px; }
 
@@ -11862,6 +11891,8 @@ input {
   text-transform: uppercase; }
 
 .support__inner {
+  position: relative;
+  z-index: 10000000;
   padding: 2em 2.5em 8em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.27); }
@@ -11902,7 +11933,6 @@ input {
   text-transform: uppercase; }
 
 .footer__table {
-  background: url("../img/balcon.png") no-repeat;
   background-size: 100% 100%;
   height: 1052px;
   width: 100%; }
@@ -11968,15 +11998,12 @@ input {
   .footer__container {
     padding-top: 100px;
     height: auto;
-    background: url("../img/footer__background-mobile.png") no-repeat;
     background-size: cover;
     opacity: 1; }
   .footer__content {
     padding-top: 10px; }
   .footer__table-container {
-    top: -8em; }
-  .footer__table {
-    background-image: url("../img/footer__table-mobile.png"); } }
+    top: -8em; } }
 
 @media screen and (max-device-width: 450px) {
   .footer__table {

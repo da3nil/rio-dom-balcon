@@ -38,20 +38,26 @@ body {
   transition: 0.2s;
   position: fixed;
   z-index: 100000000;
-  top: 0;
-  padding-top: 15px;
-  padding-bottom: 9px;
+  //padding-top: 15px;
+  //padding-bottom: 9px;
+  padding-top: 12px !important;
+  padding-bottom: 0;
+  top: -5px;
   width: 100%;
   background-color: rgba(0,0,0,1);
 }
 
 @media screen and (max-device-width: 767px) {
   .scrolled {
-    position: sticky;
+    position: static;
     background: none;
+
   }
 }
 
+.modal {
+  z-index: 100000000000000;
+}
 
 
 #svg-resize {
@@ -589,6 +595,22 @@ input {
   font-size: 1.5em;
 }
 
+@media screen and (max-device-width: 767px) {
+  .intro__container {
+    min-height: auto;
+    height: auto;
+    padding-bottom: 5rem;
+  }
+
+  .intro__title div {
+    text-align: center;
+  }
+
+  .intro__title-before {
+    text-align: center !important;
+  }
+}
+
 @media screen and (max-device-width: 991px) {
   .intro__title div {
     font-size: 3.6em;
@@ -1036,6 +1058,21 @@ input {
     height: auto !important;
   }
 
+  .interrogation-bg {
+    background: none;
+  }
+
+  .interrogation-bg__mobile {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .interrogation__title {
+    padding-left: 0;
+    text-align: center;
+  }
+
 }
 
 // include-price
@@ -1266,6 +1303,20 @@ input {
   background: linear-gradient(to top, #ff7200 0%, #ffba00 100%);
 }
 
+@media screen and (max-device-width: 767px) {
+  .trouble-item__header {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-device-width: 400px) {
+  .trouble-item__header {
+    font-size: 1rem;
+  }
+}
+
+
+
 //services
 .services {
   margin-top: 120px;
@@ -1435,6 +1486,8 @@ input {
 }
 
 .support__inner {
+  position: relative;
+  z-index: 10000000;
   padding: 2em 2.5em 8em;
   //height: 300px;
   //border-radius: 150px;
@@ -1498,7 +1551,7 @@ input {
 }
 
 .footer__table {
-  background: url("../img/balcon.png") no-repeat;
+  //background: url("../img/balcon.png") no-repeat;
   background-size: 100% 100%;
   height: 1052px;
   width: 100%;
@@ -1579,7 +1632,7 @@ input {
   .footer__container {
     padding-top: 100px;
     height: auto;
-    background: url("../img/footer__background-mobile.png") no-repeat;
+    //background: url("../img/footer__background-mobile.png") no-repeat;
     background-size: cover;
     opacity: 1;
   }
@@ -1593,7 +1646,7 @@ input {
   }
 
   .footer__table {
-    background-image: url("../img/footer__table-mobile.png");
+    //background-image: url("../img/footer__table-mobile.png");
   }
 }
 
