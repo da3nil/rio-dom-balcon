@@ -10760,6 +10760,10 @@ button.swiper-pagination-bullet {
   font-family: "Muller Regular";
   src: url("../fonts/Muller Regular.ttf"); }
 
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("../fonts/Bebas Neue Bold.ttf"); }
+
 .modal-success {
   pointer-events: none;
   display: -ms-flexbox;
@@ -11427,8 +11431,14 @@ input {
 .interrogation-container .swiper-slide-active {
   opacity: 1 !important; }
 
+.intro__menu a:hover {
+  color: #ffd227 !important;
+  transition: color 0.5s; }
+
 .intro__title-before {
+  font-family: "Bebas Neue Bold", "PF Din Text Comp Pro", sans-serif;
   padding-top: 1rem;
+  line-height: 1.2;
   text-align: left;
   text-transform: uppercase;
   color: #ffffff;

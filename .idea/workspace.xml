@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/city.php" beforeDir="false" afterPath="$PROJECT_DIR$/build/city.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
@@ -10,8 +11,10 @@
       <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/include-price.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/include-price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,8 @@
       <workItem from="1602428116077" duration="701000" />
       <workItem from="1602429279509" duration="72000" />
       <workItem from="1602439136839" duration="1160000" />
+      <workItem from="1602935430487" duration="809000" />
+      <workItem from="1603008611964" duration="4383000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -131,10 +136,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="132" y="86" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1601815201893" />
-    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1602429350355">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1602949049723">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602429350355" />
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602949049723" />
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
