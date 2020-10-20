@@ -173,6 +173,7 @@ $('#cityModal').on('hidden.bs.modal', function (e) {
     console.log(city)
     $(".support__select").text(city);
     $("#city__input").val(city);
+    $("#interrogation__city").val(city);
     $("#cityModal").modal('hide');
 })
 
@@ -415,7 +416,7 @@ $('.services__item').click(function () {
 });
 
 //swiper
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.reviews__swiper', {
     centeredSlides: true,
     slidesPerView: 1,
     // spaceBetween: 30,
@@ -609,16 +610,30 @@ let interrogation = new Swiper('.interrogation-swiper', {
     onlyExternal: true,
     allowTouchMove: false,
     slidesPerView: 1,
+    navigation: {
+        // nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 });
 
 
 var interr = 1;
 $(".interrogation__item").on("click", function () {
     interrogation.slideNext();
-    if (interr < 4) {
+    if (interr < 5) {
         interr++;
-        $(".interrogation__status span").text(interr + "/4");
-        $(".interrogation__status-bar").css("width", (interr * 25) + "%");
+        $(".interrogation__status span").text(interr + "/5");
+        $(".interrogation__status-bar").css("width", (interr * 20) + "%");
+    }
+})
+
+$(".interrogation__next").on("click", function () {
+    interrogation.slideNext();
+    console.log('n')
+    if (interr < 5) {
+        interr++;
+        $(".interrogation__status span").text(interr + "/5");
+        $(".interrogation__status-bar").css("width", (interr * 20) + "%");
     }
 })
 

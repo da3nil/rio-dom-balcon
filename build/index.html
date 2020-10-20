@@ -12,7 +12,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     
-    <link href="css/main.css?v=e19c1e74c4b941ba5fb882d54b8fe51c" rel="stylesheet" />
+    <link href="css/main.css?v=3b18811b52901bb0dc498e36f2fd68f9" rel="stylesheet" />
     
     <title>Home</title>
 </head>
@@ -272,8 +272,11 @@
                 <div class="row interrogation-bg__mobile">
                     <div class="col-md-8 offset-md-2 col-10 offset-1">
                         <div class="row interrogation-bg">
-                            <div class="col-md-6">
-                                <div class="interrogation-swiper">
+                            <div class="col-md-6 position-relative">
+                                <div class="interrogation-prev position-absolute h-100 align-items-center">
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <div class="interrogation-swiper swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="interrogation__title">Какой у вас тип балкона</div>
@@ -291,7 +294,7 @@
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
+                                                        <div class="interrogation__item-name">Балкон c выносом по подоконнику</div>
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
@@ -299,7 +302,72 @@
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
+                                                        <div class="interrogation__item-name">Балкон с выносом по полу</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="interrogation__item">
+                                                        <div class="interrogation__item-img">
+                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
+                                                        </div>
+                                                        <div class="interrogation__item-name">Комбинированный балкон</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="interrogation__title">Выберете материал для шумоизоляции</div>
+                                            <div>
+                                                <div class="pl-2">
+                                                    <div class="custom-control custom-radio">
+                                                        <input class="custom-control-input" id="customRadio" name="material"
+                                                               type="radio" value="1">
+                                                        <label class="custom-control-label" for="customRadio">Пенополистерол (Звукоизолирующие качества этого материала отличные)</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input class="custom-control-input" id="customRadio2" name="material"
+                                                               type="radio" value="2">
+                                                        <label class="custom-control-label" for="customRadio2">Пенопласт ПСБ-С35 (Очень хорош в плане цены + долговечности, но как изолятор от шума не идеален)</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input class="custom-control-input" id="customRadio3" name="material"
+                                                               type="radio" value="3">
+                                                        <label class="custom-control-label" for="customRadio3">Минеральная вата (Отличается невысокой ценой, а также долговечностью)</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input class="custom-control-input" id="customRadio4" name="material"
+                                                               type="radio" value="4">
+                                                        <label class="custom-control-label" for="customRadio4">Полиэтилен Фольгированный (Отличный утеплитель с хорошей звукоизоляцией + он тонкий, а значит - не займет много места)</label>
+                                                    </div>
+                                                    <button class="mt-2 interrogation__next btn-orange">На следующий шаг</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="interrogation__title">Нужна ли Вам строительная подготовка к утеплению</div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="interrogation__item">
+                                                        <div class="interrogation__item-img">
+                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
+                                                        </div>
+                                                        <div class="interrogation__item-name">Да, хочу услугу "под ключ"</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="interrogation__item">
+                                                        <div class="interrogation__item-img">
+                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
+                                                        </div>
+                                                        <div class="interrogation__item-name">Нет, нужна только консультация</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="interrogation__item">
+                                                        <div class="interrogation__item-img">
+                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
+                                                        </div>
+                                                        <div class="interrogation__item-name">Затрудняюсь ответить</div>
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
@@ -313,118 +381,19 @@
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="interrogation__title">Тут должен быть вопрос</div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
+                                            <div class="interrogation__title">В каком городе Вы находитесь</div>
+                                            <div class="container" style="margin-top: 42%;">
+                                                <div class="pl-2">
+                                                    <div class="form-group">
+                                                        <label for="interrogation__city">Город</label>
+                                                        <input id="interrogation__city" class="city__input-text" type="text" name="city">
                                                     </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="interrogation__title">Какой у вас тип балкона</div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="interrogation__title">Тут должен быть вопрос</div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="interrogation__item">
-                                                        <div class="interrogation__item-img">
-                                                            <img class="img-fluid" src="img/interrogation__img-2.png" alt="">
-                                                        </div>
-                                                        <div class="interrogation__item-name">Классический балкон</div>
-                                                    </div>
+                                                    <button class="interrogation__next btn-orange">На следующий шаг</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
+<!--                                    <div class="swiper-button-prev"></div>-->
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -434,7 +403,7 @@
                                     </div>
                                     <div class="interrogation__status-container">
                                         <div class="interrogation__status position-relative">
-                                            <span style="position: relative; z-index: 55">1/4</span>
+                                            <span style="position: relative; z-index: 55">1/5</span>
                                             <div class="interrogation__status-bar"></div>
                                         </div>
                                     </div>
@@ -634,7 +603,7 @@
         <div class="reviews__items container">
             <div class="row">
                 <div class="col-md-10 offset-md-1 col-12">
-                    <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                    <div class="reviews__swiper swiper-container swiper-container-initialized swiper-container-horizontal">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
@@ -1132,6 +1101,6 @@
 
     </div>
 </footer>
-<script defer src="js/main.js?v=e19c1e74c4b941ba5fb882d54b8fe51c"></script>
+<script defer src="js/main.js?v=3b18811b52901bb0dc498e36f2fd68f9"></script>
 </body>
 </html>

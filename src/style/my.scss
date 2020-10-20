@@ -787,9 +787,16 @@ input {
   height: 226px;
 }
 
+.interrogation-prev {
+  left: -3rem;
+}
+
 @media screen and (max-device-width: 767px) {
   .gallery__gradient {
     background: rgba(255,255,255,0.9);
+  }
+  .interrogation-prev {
+    left: -1rem;
   }
 }
 
@@ -833,6 +840,10 @@ input {
   background: rgba(0,0,0,0.1);
 }
 
+.interrogation-swiper .swiper-wrapper {
+  //margin-left: 2rem;
+}
+
 .interrogation__status-container {
   width: 85%;
 }
@@ -841,7 +852,7 @@ input {
   position: absolute;
   z-index: 50;
   top: 0;
-  width: 25%;
+  width: 20%;
   height: 35px;
   border-radius: 23px;
   background-color: #ff8200;
