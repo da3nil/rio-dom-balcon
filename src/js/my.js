@@ -616,6 +616,29 @@ let interrogation = new Swiper('.interrogation-swiper', {
     },
 });
 
+interrogation.on('slideChange', function () {
+    console.log('slide changed');
+    console.log(interrogation.activeIndex)
+    let title = $("#interrogation__title")
+    switch (interrogation.activeIndex) {
+        case 0:
+            title.text("Какой у вас тип балкона");
+            break;
+        case 1:
+            title.text("Выберете материал для шумоизоляции");
+            break;
+        case 2:
+            title.text("Нужна ли Вам строительная подготовка к утеплению");
+            break;
+        case 3:
+            title.text("В каком городе Вы находитесь");
+            break;
+        case 4:
+            title.text(5);
+            break;
+    }
+});
+
 
 var interr = 1;
 $(".interrogation__item").on("click", function () {
@@ -632,6 +655,14 @@ $(".interrogation__next").on("click", function () {
     console.log('n')
     if (interr < 5) {
         interr++;
+        $(".interrogation__status span").text(interr + "/5");
+        $(".interrogation__status-bar").css("width", (interr * 20) + "%");
+    }
+})
+
+$(".interrogation-container .swiper-button-prev").on('click', function () {
+    if (interr > 1) {
+        interr -= 1;
         $(".interrogation__status span").text(interr + "/5");
         $(".interrogation__status-bar").css("width", (interr * 20) + "%");
     }

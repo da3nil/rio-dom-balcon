@@ -11431,7 +11431,8 @@ input {
   background-color: #ff8200; }
 
 .interrogation-container .swiper-slide {
-  opacity: 0 !important; }
+  opacity: 0 !important;
+  height: 410px; }
 
 .interrogation-container .swiper-slide-active {
   opacity: 1 !important; }

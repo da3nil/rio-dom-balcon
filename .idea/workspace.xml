@@ -2,40 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/public_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public_html.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Bebas Neue Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/Bebas Neue Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/1_Ekran.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/1_Ekran.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/balcon-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/balcon-back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/calc__background-balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/calc__background-balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/gallery__1-balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery__1-balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/gallery__2-balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/gallery__2-balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/include-price__background-balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/include-price__background-balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/interrogation__img-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/interrogation__img-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/interrogation__img-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/interrogation__img-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/interrogation__list.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/interrogation__list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/interrogation__status.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/interrogation__status.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/intro__background-balcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/intro__background-balcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/intro__price-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/intro__price-list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/logo-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/logo-green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/review__balcon-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/review__balcon-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/trouble__img-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/trouble__img-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/trouble__img-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/trouble__img-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/trouble__img-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/trouble__img-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/trouble__img-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/trouble__img-4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/calc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +60,8 @@
       <workItem from="1602439136839" duration="1160000" />
       <workItem from="1602935430487" duration="809000" />
       <workItem from="1603008611964" duration="4383000" />
-      <workItem from="1603218209941" duration="8439000" />
+      <workItem from="1603218209941" duration="8459000" />
+      <workItem from="1603255094463" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -136,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602428183122</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Опрос">
+      <created>1603230527113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603230527113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,13 +131,14 @@
     <MESSAGE value="build" />
     <MESSAGE value="Фон подвала" />
     <MESSAGE value="mobile responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile responsive" />
+    <MESSAGE value="Опрос" />
+    <option name="LAST_COMMIT_MESSAGE" value="Опрос" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1602428182840">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603230525424">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602428182840" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603230525424" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
