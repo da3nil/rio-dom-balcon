@@ -245,10 +245,10 @@ function sendInterModal() {
         type: "POST",
         data: data,
         success: function(msg){
-            alert("Форма успешно отправлена")
+            // alert("Форма успешно отправлена")
             console.log(msg);
-            // $("#interrogationModal .modal-info").css('opacity', 0);
-            // $("#interrogationModal .modal-success").css('opacity', 1);
+            $("#interrogationModal .modal-info").css('opacity', 0);
+            $("#interrogationModal .modal-success").css('opacity', 1);
         },
         error: function () {
             alert("Ошибка отправки формы")
