@@ -18675,9 +18675,23 @@ $(".intro__menu a").click(function() {
     }, 1000); // Скорость прокрутки
 });
 
+// change type interrogate
+var type = "Классический балкон";
+var serv = "Затрудняюсь ответить";
+
+function changeTypeIntorr(str) {
+    type = str;
+}
+
+function changeServIntorr(str) {
+    serv = str;
+}
+
 // open city model after 15s
 setTimeout(function () {
-    $("#cityModal").modal('show');
+    if (!interModal) {
+        $("#cityModal").modal('show');
+    }
 }, 10000)
 
 // Change header when scroll changed
@@ -18845,6 +18859,71 @@ $('#cityModal').on('hidden.bs.modal', function (e) {
     $("#interrogation__city").val(city);
     $("#cityModal").modal('hide');
 })
+
+function sendInterModal() {
+    let phone = $("#modal2-phone").val();
+    let name = $("#modal2-name").val();
+    let city = $("#interrogation__city").val()
+    let err = [];
+    let messenger = $(".interrRadio:checked").val();
+
+    let material_raw = $("input[name=material]:checked").val();
+    let material = "Неизвестно"
+
+    switch (material_raw) {
+        case '1':
+            material = "Пенополистирол";
+            break
+        case '2':
+            material = "Пенопласт ПСБ-С35";
+            break
+        case '3':
+            material = "Минеральная вата";
+            break
+        case '4':
+            material = "Полиэтилен Фольгированный ";
+            break
+        default:
+            material = "Неизвестно";
+            break
+    }
+
+    if (phone.length !== 18) {
+        err = err.concat("Телефон введен некорректно")
+    }
+
+    if (name === "") {
+        err = err.concat("Имя введено некорректно")
+    }
+
+
+    let msg = "";
+    if (err.length > 0) {
+        msg = "\n";
+        msg += err;
+        alert("Ошибка отправки формы: " + msg)
+        return false;
+    }
+
+    let data = {"name": name, "phone": phone, "city": city, "type": type, "material": material, "serv": serv, "messenger": messenger};
+
+    console.log(data)
+
+    $.ajax({
+        url: "interrogation.php",
+        type: "POST",
+        data: data,
+        success: function(msg){
+            alert("Форма успешно отправлена")
+            console.log(msg);
+            // $("#interrogationModal .modal-info").css('opacity', 0);
+            // $("#interrogationModal .modal-success").css('opacity', 1);
+        },
+        error: function () {
+            alert("Ошибка отправки формы")
+        }
+    });
+}
 
 // Отправка формы из модального окна
 function sendModal() {
@@ -19042,7 +19121,8 @@ function showForm() {
 let phones = $('.phone');
 let phone1 = $(".calc .phone");
 let phone2 = $(".support .phone");
-let phone3 = $(".modal-content .phone");
+let phone3 = $("#exampleModal .phone");
+let phone4 = $("#interrogationModal .phone");
 
 phones.on("focus", function () {
     phones.attr("placeholder", "");
@@ -19057,6 +19137,10 @@ phones.on("focus", function () {
 
     if (phone3.val() === '') {
         phone3.val('+7 (');
+    }
+
+    if (phone4.val() === '') {
+        phone4.val('+7 (');
     }
 });
 
@@ -19074,6 +19158,10 @@ phones.on("blur", function () {
 
     if (phone3.val() === '+7 (') {
         phone3.val('')
+    }
+
+    if (phone4.val() === '+7 (') {
+        phone4.val('')
     }
 });
 
@@ -19284,6 +19372,16 @@ let interrogation = new Swiper('.interrogation-swiper', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+var interModal = false;
+
+$('#interrogationModal').on('shown.bs.modal', function (e) {
+    interModal = true;
+})
+
+$('#interrogationModal').on('hidden.bs.modal', function (e) {
+    interModal = false;
+})
 
 interrogation.on('slideChange', function () {
     console.log('slide changed');

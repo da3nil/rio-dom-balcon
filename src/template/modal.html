@@ -56,3 +56,78 @@
         </div>
     </div>
 </div>
+
+<div class="modal modal-define fade" style="padding-left: 0 !important; padding-right: 0 !important;" id="interrogationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-info pl-sm-5 pr-sm-5 pl-2 pr-2">
+                    <div class="modal__header pt-1 mb-2 header-1 text-uppercase w-100 text-center" style="font-size: 1.7em !important; font-weight: normal">Мы уже приступили к <strong>детальному расчету
+                        стоимости в 2-х вариантах</strong> и вышлем Вам в течении 20 минут
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                                                        <div class="modal__desc text-center">
+                                                            Как Вам удобнее получить результаты расчета?
+                                                        </div>
+                        </div>
+                    </div>
+                    <div class="modal__social pt-4 pb-4 text-center d-flex justify-content-center align-items-center flex-wrap">
+<!--                        <a class="pr-1 text-decoration-none" target="_blank" href="http://t.me/RIODOM">-->
+<!--                            <img src="img/modal__telegram.png" alt="">-->
+<!--                        </a>-->
+<!--                        <a target="_blank" href="https://api.whatsapp.com/send?phone=79270809042">-->
+<!--                            <img src="img/modal__whatsapp.png" alt="">-->
+<!--                        </a>-->
+                            <div class="form-check ml-2 mr-2">
+                                <input class="form-check-input interrRadio" type="radio" name="type" id="exampleRadios1" value="whatsapp" checked="">
+                                <label class="form-check-label d-inline" for="exampleRadios1">
+                                    whatsapp
+                                </label>
+                            </div>
+                            <div class="form-check ml-2 mr-2">
+                                <input class="form-check-input interrRadio" type="radio" name="type" id="exampleRadios2" value="telegram">
+                                <label class="form-check-label d-inline" for="exampleRadios2">
+                                    telegram
+                                </label>
+                            </div>
+                            <div class="form-check ml-2 mr-2">
+                                <input class="form-check-input interrRadio" type="radio" name="type" id="exampleRadios3" value="viber">
+                                <label class="form-check-label d-inline" for="exampleRadios3">
+                                    viber
+                                </label>
+                            </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-10 offset-1">
+<!--                            <div class="modal__desc text-center text-uppercase">-->
+<!--                                или же введите номер телефона для получения-->
+<!--                                прайса в любом удобном для вас мессенджере-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                            <form action="" method="post">
+                                <div class="modal__form-group mb-3 text-center">
+                                    <label class="modal__desc" for="modal2-name">ИМЯ</label>
+                                    <input id="modal2-name" name="name" type="text">
+                                </div>
+                                <div class="modal__form-group mb-4 text-center">
+                                    <label class="modal__desc" for="modal2-phone">ТЕЛЕФОН</label>
+                                    <input class="phone" name="phone" id="modal2-phone" type="text">
+                                </div>
+                                <div class="text-center pt-2 mb-3">
+                                    <button type="button" class="intro__btn" onclick="sendInterModal()">Получить расчет и забрать подарок</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-success">
+                    <img src="img/logo-green.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -29,7 +29,7 @@
 <!--                                            <div class="interrogation__title">Какой у вас тип балкона</div>-->
                                             <div class="row">
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeTypeIntorr('Классический балкон')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -37,7 +37,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeTypeIntorr('Балкон c выносом по подоконнику')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -45,7 +45,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeTypeIntorr('Балкон с выносом по полу')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -53,7 +53,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeTypeIntorr('Комбинированный балкон')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -69,7 +69,7 @@
                                                     <div class="custom-control custom-radio">
                                                         <input class="custom-control-input" id="customRadio" name="material"
                                                                type="radio" value="1">
-                                                        <label class="custom-control-label" for="customRadio">Пенополистерол (Звукоизолирующие качества этого материала отличные)</label>
+                                                        <label class="custom-control-label" for="customRadio">Пенополистирол (Звукоизолирующие качества этого материала отличные)</label>
                                                     </div>
                                                     <div class="custom-control custom-radio">
                                                         <input class="custom-control-input" id="customRadio2" name="material"
@@ -94,7 +94,7 @@
 <!--                                            <div class="interrogation__title">Нужна ли Вам строительная подготовка к утеплению</div>-->
                                             <div class="row">
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeServIntorr('Да, хочу услугу под ключ')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -102,7 +102,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
-                                                    <div class="interrogation__item">
+                                                    <div class="interrogation__item" onclick="changeServIntorr('Нет, нужна только консультация')">
                                                         <div class="interrogation__item-img">
                                                             <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                         </div>
@@ -112,7 +112,7 @@
                                                 <div class="col-12">
                                                     <div class="row justify-content-center">
                                                         <div class="col-6">
-                                                            <div class="interrogation__item">
+                                                            <div class="interrogation__item" onclick="changeServIntorr('Затрудняюсь ответить')" >
                                                                 <div class="interrogation__item-img">
                                                                     <img class="img-fluid" src="img/interrogation__img-1.png" alt="">
                                                                 </div>
@@ -140,7 +140,7 @@
                                                         <label for="interrogation__city">Город</label>
                                                         <input id="interrogation__city" class="city__input-text" type="text" name="city">
                                                     </div>
-                                                    <button class="interrogation__next btn-orange">На следующий шаг</button>
+                                                    <button class="btn-orange" data-toggle="modal" data-target="#interrogationModal">На следующий шаг</button>
                                                 </div>
                                             </div>
                                         </div>
