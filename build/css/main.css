@@ -11381,6 +11381,12 @@ input {
 .interrogation-prev {
   left: -3rem; }
 
+.interrogation__item {
+  text-align: center; }
+
+.interrogation-container img {
+  max-height: 150px; }
+
 @media screen and (max-device-width: 767px) {
   .gallery__gradient {
     background: rgba(255, 255, 255, 0.9); }
