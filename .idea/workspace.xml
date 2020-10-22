@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/intro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -58,7 +60,9 @@
       <workItem from="1602935430487" duration="809000" />
       <workItem from="1603008611964" duration="4383000" />
       <workItem from="1603218209941" duration="8459000" />
-      <workItem from="1603255094463" duration="14325000" />
+      <workItem from="1603255094463" duration="15008000" />
+      <workItem from="1603350345772" duration="621000" />
+      <workItem from="1603368832012" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603270000415</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add responsive">
+      <created>1603270802154</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603270802154</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,21 +162,22 @@
     <MESSAGE value="mobile responsive" />
     <MESSAGE value="Опрос (backend)" />
     <MESSAGE value="Опрос" />
-    <option name="LAST_COMMIT_MESSAGE" value="Опрос" />
+    <MESSAGE value="Add responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add responsive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603269999184">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603270801981">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603269999184" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603270801981" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="132" y="86" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1601815201893" />
-    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1602949049723">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1603361891940">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602949049723" />
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603361891940" />
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -174,10 +186,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="238" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603218950662" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603270002954">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603270803769">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603270002954" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603270803769" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
