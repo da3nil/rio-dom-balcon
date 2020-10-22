@@ -24,6 +24,11 @@
   src: url("../fonts/Bebas Neue Bold.ttf");
 }
 
+.close {
+  position: relative;
+  z-index: 10000000000000000000000;
+}
+
 .modal-success {
   //display: none;
   pointer-events: none;

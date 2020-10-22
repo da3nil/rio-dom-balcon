@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="" />
+    <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +69,7 @@
       <workItem from="1603255094463" duration="15008000" />
       <workItem from="1603350345772" duration="621000" />
       <workItem from="1603368832012" duration="7678000" />
-      <workItem from="1603395232482" duration="1301000" />
+      <workItem from="1603395232482" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -187,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603395903637</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="FIX">
+      <created>1603396551275</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603396551275</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,13 +225,14 @@
     <MESSAGE value="task (2)" />
     <MESSAGE value="task (1)" />
     <MESSAGE value="Кнопка с выбором города в шапке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кнопка с выбором города в шапке" />
+    <MESSAGE value="FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603395903073">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603396550648">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603395903073" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603396550648" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -231,10 +249,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="238" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603218950662" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603395905310">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603396552849">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603395905310" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603396552849" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

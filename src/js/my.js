@@ -283,6 +283,18 @@ function sendInterModal() {
             console.log(msg);
             $("#interrogationModal .modal-info").css('opacity', 0);
             $("#interrogationModal .modal-success").css('opacity', 1);
+            $(".interrogation__info-container").css('display', 'none');
+            $(".interrogation__title").css('text-align', 'center');
+            $(".interrogation__title").text('Ваша заявка была принята');
+            // $(".interrogation__check-container").removeClass('col-md-6');
+            $(".interrogation__check-container").addClass('offset-md-3');
+            $(".interrogation__status span").text("5/5");
+            $(".interrogation__status-bar").css("width", "100%");
+            $(".interrogation-container .swiper-button-prev").css('display', 'none');
+            $(".interrogation__list").removeClass('d-none');
+            setTimeout(function () {
+                $("#interrogationModal").modal('hide');
+            }, 2000);
         },
         error: function () {
             alert("Ошибка отправки формы")
@@ -542,9 +554,9 @@ var mySwiper = new Swiper('.reviews__swiper', {
     centeredSlides: true,
     slidesPerView: 1,
     // spaceBetween: 30,
-    autoplay: {
-        delay: 5000,
-    },
+    // autoplay: {
+    //     delay: 5000,
+    // },
     speed: 700,
     spaceBetween: 200,
     // loop: true,
