@@ -18752,7 +18752,7 @@ if ($(window).width() < 767) {
 $(".city__dropdown").on("click", "button", function (e) {
     $("#city__input-text").val($(this).text())
     cityDrop.css('display', 'none');
-    if (mobile) {
+    if (mobile || true) {
         let city = $("#city__input-text").val();
         if (city === "") {
             city = "Не выбран"
@@ -18766,7 +18766,7 @@ $(".city__dropdown").on("click", "button", function (e) {
 
 $(".city__collection li").on('click', function (e) {
     $("#city__input-text").val($(this).text())
-    if (mobile) {
+    if (mobile || true) {
         let city = $("#city__input-text").val();
         if (city === "") {
             city = "Не выбран"
