@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/support.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,8 @@
       <workItem from="1603218209941" duration="8459000" />
       <workItem from="1603255094463" duration="15008000" />
       <workItem from="1603350345772" duration="621000" />
-      <workItem from="1603368832012" duration="6542000" />
+      <workItem from="1603368832012" duration="7678000" />
+      <workItem from="1603395232482" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -178,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603377325753</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task (1)">
+      <created>1603386279021</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603386279021</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,21 +211,22 @@
     <MESSAGE value="tasks (6, 3)" />
     <MESSAGE value="task (4)" />
     <MESSAGE value="task (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="task (2)" />
+    <MESSAGE value="task (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="task (1)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603377325389">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603386278738">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603377325389" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603386278738" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="132" y="86" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1601815201893" />
-    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1603361891940">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1603387950761">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603361891940" />
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603387950761" />
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -220,10 +235,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="238" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603218950662" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603377327308">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603386282541">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603377327308" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603386282541" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

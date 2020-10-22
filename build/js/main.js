@@ -18688,11 +18688,42 @@ function changeServIntorr(str) {
 }
 
 // open city model after 15s
-setTimeout(function () {
-    if (!interModal) {
+setInterval(function () {
+    if (needShowCityForm && allowShowCityForm) {
         $("#cityModal").modal('show');
     }
 }, 10000)
+
+var needShowCityForm = true;
+var allowShowCityForm = true;
+
+
+$("#interrogationModal").on('shown.bs.modal', function (e) {
+    allowShowCityForm = false;
+})
+
+$("#interrogationModal").on('hidden.bs.modal', function (e) {
+    allowShowCityForm = true;
+})
+
+$('#exampleModal').on('shown.bs.modal', function (e) {
+    allowShowCityForm = false;
+})
+
+$('#cityModal').on('shown.bs.modal', function (e) {
+    needShowCityForm = false;
+    allowShowCityForm = false;
+})
+
+$('#exampleModal').on('hidden.bs.modal', function (e) {
+    allowShowCityForm = true;
+})
+
+$('#cityModal').on('hidden.bs.modal', function (e) {
+    needShowCityForm = false;
+    allowShowCityForm = false;
+})
+
 
 // Change header when scroll changed
 $(window).scroll(function() {
@@ -18760,6 +18791,7 @@ $(".city__dropdown").on("click", "button", function (e) {
         //console.log(city)
         $(".support__select").text(city);
         $("#city__input").val(city);
+        $("#intro__city-data").text(city);
         $("#cityModal").modal('hide');
     }
 })
@@ -18774,6 +18806,7 @@ $(".city__collection li").on('click', function (e) {
         //console.log(city)
         $(".support__select").text(city);
         $("#city__input").val(city);
+        $("#intro__city-data").text(city);
         $("#cityModal").modal('hide');
     }
 })
@@ -18787,6 +18820,7 @@ $("#cityOpen").on('click', function () {
     //console.log(city)
     $(".support__select").text(city);
     $("#city__input").val(city);
+    $("#intro__city-data").text(city);
     $("#cityModal").modal('hide');
 })
 

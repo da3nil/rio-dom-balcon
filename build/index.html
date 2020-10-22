@@ -12,7 +12,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     
-    <link href="css/main.css?v=24ebe683edb823ba1b295744d174aa69" rel="stylesheet" />
+    <link href="css/main.css?v=7087c9050238b5e8a405f989c8581c2b" rel="stylesheet" />
     
     <title>Home</title>
 </head>
@@ -171,7 +171,7 @@
                 </div>
                 <form autocomplete="off">
                     <div class="city__input-group justify-content-start justify-content-md-between position-relative">
-                        <input name="city" id="city__input-text" class="city__input-text" type="text" placeholder="Выберите регион или город" autocomplete="off">
+                        <input value="Москва и МО" name="city" id="city__input-text" class="city__input-text" type="text" placeholder="Выберите регион или город" autocomplete="off">
                         <button id="cityOpen" class="ml-2 d-none d-md-inline btn-orange">Выбрать</button>
                     </div>
                 </form>
@@ -249,12 +249,19 @@
                         <div class="row">
                             <div class="col-lg">
                                 <div class="logo p-3 pt-3 p-md-0">
-                                    <img class="img-fluid" src="img/logo-white.png" alt="">
+                                    <img  style="position: relative;top: 0.6rem;" class="img-fluid" src="img/logo-white.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg pt-3 pb-3 pt-lg-0 pb-lg-0 text-lg-left">
-                                Более 6-ти лет на рынке, 3000 работ
-                                В 173х городах России
+                            <div class="col-lg pt-3 pb-3 pt-lg-0 pb-lg-0 d-flex justify-content-center text-center">
+                                <div class="intro__city-container">
+                                    <div style="cursor: pointer" data-toggle="modal" data-target="#cityModal" class="intro__city-head text-center">
+                                        <img src="img/map-marker-alt-solid.svg" alt="" style="height: 16px; width: auto; position: relative; top: -2px">
+                                        <span id="intro__city-data">Москва и МО</span>
+                                    </div>
+                                    <div data-toggle="modal" data-target="#cityModal" class="intro__city-bottom text-center" style="cursor: pointer; font-size: calc(16px + 0.1vw); text-decoration: underline">
+                                        Выбрать другой
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg d-none d-lg-block text-decoration-none">
                                 <a href="#calc" class="intro__calc flowing-scroll" data-scroll=".calc" style="white-space: nowrap">
@@ -1097,7 +1104,7 @@
                                 <div class="support__city mt-2">
                                     <span class="d-inline">Ваш город:</span>
                                     <span class="support__select" data-toggle="modal" data-target="#cityModal">ВЫБРАТЬ ГОРОД</span>
-                                    <input id="city__input" name="city" value="ВЫБРАТЬ ГОРОД" type="hidden">
+                                    <input id="city__input" name="city" value="МОСКВА И МО" type="hidden">
                                 </div>
                                 <div class="form-group mt-4">
                                     <input class="support__input" id="support-name" type="text" name="name" placeholder="имя">
@@ -1196,6 +1203,6 @@
 
     </div>
 </footer>
-<script defer src="js/main.js?v=24ebe683edb823ba1b295744d174aa69"></script>
+<script defer src="js/main.js?v=7087c9050238b5e8a405f989c8581c2b"></script>
 </body>
 </html>
