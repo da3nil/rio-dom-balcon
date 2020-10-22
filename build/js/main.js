@@ -18668,7 +18668,7 @@ k("input"),watchDataMask:!1,byPassKeys:[9,16,17,18,36,37,38,39,40,91],translatio
 
 // Импортируем другие js-файлы
 // jquery link
-$(".intro__menu a").click(function() {
+$(".intro__menu .animate-l").click(function() {
     let el = $(this)
     $('html, body').animate({
         scrollTop: $(el.attr('href')).offset().top - (screen.height * 0.25)
