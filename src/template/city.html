@@ -1,12 +1,14 @@
 <div class="modal fade bd-example-modal-lg" id="cityModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="city__header">
+            <div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 2rem; outline: none; padding-right: 2rem; padding-top: 20px">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="city__header" style="padding-top: 1rem">
                 <div class="modal-title position-relative">
                     <label class="d-block city__title text-left text-md-center" for="city__input-text">Выберите регион <span class="d-none d-md-inline">или город</span></label>
-                    <button type="button" class="close position-absolute d-inline d-md-none" style="top: 0; right: 0; bottom: 0;" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" style="font-size: 2rem">&times;</span>
-                    </button>
                 </div>
                 <div class="city__input-group justify-content-start justify-content-md-between position-relative">
                     <input name="city" id="city__input-text" class="city__input-text" type="search" placeholder="Выберите регион или город" autocomplete="nope">

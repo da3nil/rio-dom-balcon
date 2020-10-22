@@ -12,7 +12,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     
-    <link href="css/main.css?v=da09592a530800c991c9d4e4fa973938" rel="stylesheet" />
+    <link href="css/main.css?v=1bcab095bccfc8d043bfb2a1c05aba8e" rel="stylesheet" />
     
     <title>Home</title>
 </head>
@@ -21,6 +21,9 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 2rem; outline: none; padding-right: 1rem; padding-top: 5px">
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="modal-info pl-sm-5 pr-sm-5 pl-2 pr-2">
                     <div class="modal__header pt-1 header-1 text-uppercase w-100 text-center" style="font-size: 1.9em !important;">Для получения прайс листа
                         перейдите в удобный для вас
@@ -80,6 +83,9 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 2rem; outline: none; padding-right: 1rem; padding-top: 5px">
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="modal-info pl-sm-5 pr-sm-5 pl-2 pr-2">
                     <div class="modal__header pt-1 mb-2 header-1 text-uppercase w-100 text-center" style="font-size: 1.7em !important; font-weight: normal">Мы уже приступили к <strong>детальному расчету
                         стоимости в 2-х вариантах</strong> и вышлем Вам в течении 20 минут
@@ -154,12 +160,14 @@
 <div class="modal fade bd-example-modal-lg" id="cityModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="city__header">
+            <div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 2rem; outline: none; padding-right: 2rem; padding-top: 20px">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="city__header" style="padding-top: 1rem">
                 <div class="modal-title position-relative">
                     <label class="d-block city__title text-left text-md-center" for="city__input-text">Выберите регион <span class="d-none d-md-inline">или город</span></label>
-                    <button type="button" class="close position-absolute d-inline d-md-none" style="top: 0; right: 0; bottom: 0;" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" style="font-size: 2rem">&times;</span>
-                    </button>
                 </div>
                 <div class="city__input-group justify-content-start justify-content-md-between position-relative">
                     <input name="city" id="city__input-text" class="city__input-text" type="search" placeholder="Выберите регион или город" autocomplete="nope">
@@ -1186,6 +1194,6 @@
 
     </div>
 </footer>
-<script defer src="js/main.js?v=da09592a530800c991c9d4e4fa973938"></script>
+<script defer src="js/main.js?v=1bcab095bccfc8d043bfb2a1c05aba8e"></script>
 </body>
 </html>

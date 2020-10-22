@@ -10862,7 +10862,7 @@ label {
   padding-right: 0 !important; }
 
 .city__header {
-  box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2rem 32px rgba(0, 0, 0, 0.17);
   padding: 3rem 3rem; }
 
 .city__title {
