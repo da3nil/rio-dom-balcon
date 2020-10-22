@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1603218209941" duration="8459000" />
       <workItem from="1603255094463" duration="15008000" />
       <workItem from="1603350345772" duration="621000" />
-      <workItem from="1603368832012" duration="845000" />
+      <workItem from="1603368832012" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603270802154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task (3)">
+      <created>1603370624000</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603370624000</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,13 +171,14 @@
     <MESSAGE value="Опрос (backend)" />
     <MESSAGE value="Опрос" />
     <MESSAGE value="Add responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add responsive" />
+    <MESSAGE value="task (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="task (3)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603270801981">
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603370623703">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603270801981" />
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603370623703" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -186,10 +195,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="238" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603218950662" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603270803769">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603370625557">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603270803769" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603370625557" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
