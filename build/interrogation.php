@@ -25,7 +25,7 @@ if (!empty($_POST)) {
     htmlspecialchars_decode($material);
 
     $message = "
-        <h1>Заявка на расчет стоимости остекления или утепления балкона от rio-dom.ru</h1>
+        <h1>Заявка на расчет стоимости остекления или утепления балкона от rio-dom.ru/balcony</h1>
         <p>
             <b>Имя:</b>
             <span>$name</span>
@@ -36,7 +36,7 @@ if (!empty($_POST)) {
         </p>
         <p>
             <b>Мессенджер:</b>
-            <span>$messenger/span>
+            <span>$messenger</span>
         </p>
         <p>
             <b>Город:</b>

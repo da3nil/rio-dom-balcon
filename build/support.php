@@ -36,7 +36,7 @@ if (!empty($_POST)) {
     htmlspecialchars_decode($city);
     
     $message = "
-        <h1>Заявка на обратный звонок от rio-dom.ru</h1>
+        <h1>Заявка на обратный звонок от rio-dom.ru/balcony</h1>
         <p>
             <b>Имя:</b>
             <span>$name</span>

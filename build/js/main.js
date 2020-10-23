@@ -19173,6 +19173,22 @@ let phone2 = $(".support .phone");
 let phone3 = $("#exampleModal .phone");
 let phone4 = $("#interrogationModal .phone");
 
+if (phone1.val() === '') {
+    phone1.val('+7 (');
+}
+
+if (phone2.val() === '') {
+    phone2.val('+7 (');
+}
+
+if (phone3.val() === '') {
+    phone3.val('+7 (');
+}
+
+if (phone4.val() === '') {
+    phone4.val('+7 (');
+}
+
 phones.on("focus", function () {
     phones.attr("placeholder", "");
 
@@ -19197,20 +19213,20 @@ phones.on("blur", function () {
     phone1.attr("placeholder", "НОМЕР ТЕЛЕФОНА")
     phone2.attr("placeholder", "номер телефона")
 
-    if (phone1.val() === '+7 (') {
-        phone1.val('')
+    if (phone1.val() === '+7 ' || phone1.val() === '+7' || phone1.val() === '+' || phone1.val() === '') {
+        phone1.val('+7 (')
     }
 
-    if (phone2.val() === '+7 (') {
-        phone2.val('')
+    if (phone2.val() === '+7 ' || phone2.val() === '+7' || phone2.val() === '+' || phone2.val() === '') {
+        phone2.val('+7 (')
     }
 
-    if (phone3.val() === '+7 (') {
-        phone3.val('')
+    if (phone3.val() === '+7 ' || phone3.val() === '+7' || phone3.val() === '+' || phone3.val() === '') {
+        phone3.val('+7 (')
     }
 
-    if (phone4.val() === '+7 (') {
-        phone4.val('')
+    if (phone4.val() === '+7 ' || phone4.val() === '+7' || phone4.val() === '+' || phone4.val() === '') {
+        phone4.val('+7 (')
     }
 });
 
