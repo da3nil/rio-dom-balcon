@@ -11411,7 +11411,9 @@ input {
   .gallery__gradient {
     background: rgba(255, 255, 255, 0.9); }
   .interrogation-prev {
-    left: -1rem; } }
+    left: -1rem; }
+  .gallery__header {
+    white-space: normal; } }
 
 .calc {
   margin-top: -3em;
