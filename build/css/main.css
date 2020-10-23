@@ -11284,7 +11284,7 @@ input {
 .gallery__container {
   background-size: 100% 100%;
   position: relative;
-  min-height: 600px; }
+  min-height: 670px; }
 
 .gallery__inner {
   pointer-events: none;
