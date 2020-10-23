@@ -18791,6 +18791,7 @@ $(".city__dropdown").on("click", "button", function (e) {
         //console.log(city)
         $(".support__select").text(city);
         $("#city__input").val(city);
+        $(".city").val(city);
         $("#intro__city-data").text(city);
         $("#cityModal").modal('hide');
     }
@@ -18806,6 +18807,7 @@ $(".city__collection li").on('click', function (e) {
         //console.log(city)
         $(".support__select").text(city);
         $("#city__input").val(city);
+        $(".city").val(city);
         $("#intro__city-data").text(city);
         $("#cityModal").modal('hide');
     }
@@ -18820,6 +18822,7 @@ $("#cityOpen").on('click', function () {
     //console.log(city)
     $(".support__select").text(city);
     $("#city__input").val(city);
+    $(".city").val(city);
     $("#intro__city-data").text(city);
     $("#cityModal").modal('hide');
 })
@@ -18996,7 +18999,7 @@ function sendModal() {
     $.ajax({
         url: "support.php",
         type: "POST",
-        data: $('.modal form').serialize(),
+        data: $('#exampleModal form').serialize(),
         success: function(msg){
             // alert("Форма успешно отправлена")
             $("#exampleModal .modal-info").css('opacity', 0);

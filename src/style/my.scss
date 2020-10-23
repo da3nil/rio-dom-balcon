@@ -43,6 +43,15 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.modal-success:after {
+  content: "Ваша заявка была принята";
+  text-align: center;
+  font-size: calc(1.3em);
+  font-weight: 600;
+  color: #3bc638;
 }
 
 .modal-success img {

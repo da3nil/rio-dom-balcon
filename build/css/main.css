@@ -10783,7 +10783,16 @@ button.swiper-pagination-bullet {
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.modal-success:after {
+  content: "Ваша заявка была принята";
+  text-align: center;
+  font-size: calc(1.3em);
+  font-weight: 600;
+  color: #3bc638; }
 
 .modal-success img {
   max-width: 100%;
