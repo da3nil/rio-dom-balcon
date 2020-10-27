@@ -18884,6 +18884,24 @@ function cityRender(data = []) {
     }
 }
 
+// keydown form
+$(document).ready(function() {
+    $('#city__input-text').keydown(function(e) {
+        if(e.keyCode === 13) {
+            console.log('close')
+            let city = $("#city__input-text").val();
+            if (city === "") {
+                city = "Не выбран"
+            }
+            console.log(city)
+            $(".support__select").text(city);
+            $("#city__input").val(city);
+            $("#interrogation__city").val(city);
+            $("#cityModal").modal('hide');
+        }
+    });
+});
+
 $('#cityModal').on('hidden.bs.modal', function (e) {
     console.log('close')
     let city = $("#city__input-text").val();
