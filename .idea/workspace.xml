@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="">
+    <list default="true" id="c24143e6-aeaf-40f0-913c-f5787bf7196b" name="Default Changelist" comment="end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg10.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg5.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg6.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg7.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg8.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/blg9.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/blg9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/in1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/in1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/in2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/in2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/in3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/in3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/in4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/in4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/int1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/int1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/int2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/int2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/int3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/int3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/map-marker-alt-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/map-marker-alt-solid.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interrogation.php" beforeDir="false" afterPath="$PROJECT_DIR$/build/interrogation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/support.php" beforeDir="false" afterPath="$PROJECT_DIR$/build/support.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/support.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +53,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
@@ -71,7 +97,10 @@
       <workItem from="1603472031713" duration="4312000" />
       <workItem from="1603485890959" duration="207000" />
       <workItem from="1603486765339" duration="333000" />
-      <workItem from="1603791919902" duration="1197000" />
+      <workItem from="1603791919902" duration="1490000" />
+      <workItem from="1603795126214" duration="858000" />
+      <workItem from="1603958280696" duration="529000" />
+      <workItem from="1603976983168" duration="7691000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1601815237917</created>
@@ -269,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603483594657</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Закрытие окна с городом при нажатии Enter">
+      <created>1603794569200</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603794569200</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,21 +332,26 @@
     <MESSAGE value="Город backend" />
     <MESSAGE value="СЕО" />
     <MESSAGE value="Все)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Все)" />
+    <MESSAGE value="Закрытие окна с городом при нажатии Enter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закрытие окна с городом при нажатии Enter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603483594488">
+    <state x="420" y="220" key="#Notifications" timestamp="1603795725569">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603483594488" />
+    <state x="420" y="220" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1603795725569" />
+    <state x="532" y="27" key="CommitChangelistDialog2" timestamp="1603794568740">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="532" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1603794568740" />
     <state x="132" y="86" key="DiffContextDialog" timestamp="1601815201893">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="132" y="86" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1601815201893" />
-    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1603486095830">
+    <state x="466" y="141" key="FileChooserDialogImpl" timestamp="1603958805454">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603486095830" />
+    <state x="466" y="141" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603958805454" />
     <state x="547" y="297" width="474" height="201" key="Github.ShareDialog" timestamp="1601655027121">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -319,10 +360,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="238" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603218950662" />
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603483596048">
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2" timestamp="1603794621412">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603483596048" />
+    <state x="278" y="133" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603794621412" />
     <state x="456" y="287" width="454" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601815190573">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

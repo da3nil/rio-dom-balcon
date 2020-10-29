@@ -37,6 +37,7 @@ if (!empty($_POST)) {
     
     $message = "
         <h1>Заявка на обратный звонок от rio-dom.ru/balcony</h1>
+        <hr>
         <p>
             <b>Имя:</b>
             <span>$name</span>

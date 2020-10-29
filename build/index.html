@@ -12,7 +12,7 @@
     <meta name="google" content="notranslate">
     <!--<meta name="format-detection" content="telephone=no">-->
     
-    <link href="css/main.css?v=6e7fa03225bcd08cbc8ac6bb2bec66f7" rel="stylesheet" />
+    <link href="css/main.min.css?v=8f74b725e2152bcb35ebd85e480914c1" rel="stylesheet" />
     
     <title>Rio-Dom.ru - раз и навсегда забудьте о потере тепла!</title>
 </head>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="row mb-4">
                         <div class="col-10 offset-1">
-                            <div class="modal__desc text-center text-uppercase">
+                            <div class="modal__desc modal__desc-d text-center text-uppercase">
                                 или же введите номер телефона для получения
                                 прайса в любом удобном для вас мессенджере
                             </div>
@@ -554,7 +554,7 @@
                                 Наша компания применяет различные способы утепления балконов и лоджий, в зависимости от ваших пожеланий и нужного результата.
                             </div>
                             <div class="mb-3">
-                                <button class="btn-orange text-uppercase" data-toggle="modal" data-target="#exampleModal" style="font-size: 1.1rem; pointer-events: all">Вызвать замерщика</button>
+                                <button class="btn-orange text-uppercase" id="zamer" data-toggle="modal" data-target="#exampleModal" style="font-size: 1.1rem; pointer-events: all">Вызвать замерщика</button>
                             </div>
                         </div>
                     </div>
@@ -716,140 +716,42 @@
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg1.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln1.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg2.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln2.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg3.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln3.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg4.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln4.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg5.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln5.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide" data-swiper-autoplay="5000">
                                 <div class="row text-center text-md-left">
                                     <div class="col-md-12">
-                                        <img src="img/blg6.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" data-swiper-autoplay="5000">
-                                <div class="row text-center text-md-left">
-                                    <div class="col-md-12">
-                                        <img src="img/blg7.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" data-swiper-autoplay="5000">
-                                <div class="row text-center text-md-left">
-                                    <div class="col-md-12">
-                                        <img src="img/blg8.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" data-swiper-autoplay="5000">
-                                <div class="row text-center text-md-left">
-                                    <div class="col-md-12">
-                                        <img src="img/blg9.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" data-swiper-autoplay="5000">
-                                <div class="row text-center text-md-left">
-                                    <div class="col-md-12">
-                                        <img src="img/blg10.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="reviews__item-container">
-                                            <div class="reviews__content text-center">
-                                                Что-то о балконе который на фото, например о том что он красивый, или о том что он балкон!
-                                            </div>
-                                        </div>
+                                        <img src="img/bln6.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -858,6 +760,9 @@
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="text-center text-nowrap">
+                        <a target="_blank" href="https://vk.com/remont.inc_ufa?z=album-132592573_277820221" class="d-inline-block text-decoration-none btn-orange support__btn text-white" style="font-size: 1em; padding: 0.5rem">ОТКРЫТЬ ГАЛЕРЕЮ</a>
                     </div>
                 </div>
             </div>
@@ -1195,7 +1100,7 @@
 </section>
 
 <section class="support">
-    <div class="support__container">
+    <div class="support__container" id="support-l">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
@@ -1241,6 +1146,28 @@
         <div class="container">
             <div class="col-md-10 offset-md-1">
                 <div class="footer__items row">
+                    <div class="col-md order-md-0">
+                        <div class="footer__head mt-5 mt-md-0 header-2">Навигация</div>
+                        <div class="footer__content footer__content-one">
+                            <ul class="list-unstyled">
+                                <li class="text-white"><a href="#services" class="text-white animate-l">Наши услуги</a></li>
+                                <li class="text-white"><a href="#support-l" class="text-white animate-l">Заказать обратный звонок</a></li>
+                                <li class="text-white"><a href="#calc" class="text-white animate-l">Калькулятор</a></li>
+                                <li class="text-white">
+                                    <a target="_blank" href="https://vk.com/remont.inc_ufa" class="d-flex text-white align-items-center justify-content-center justify-content-md-start">
+                                        <img style="padding-right: 4px;height: 20px;" class="img-fluid" src="img/vk-logo.png" alt="">
+                                        <strong>VK.COM</strong>
+                                    </a>
+                                </li>
+                                <li class="text-white">
+                                    <a href="" class="text-white d-flex align-items-center justify-content-center justify-content-md-start">
+                                        <img style="padding-right: 4px;height: 18px;" class="img-fluid" src="img/inst.png" alt="">
+                                        <strong>INSTAGRAM.COM</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="col-md order-md-0">
                         <div class="footer__head mt-5 mt-md-0 header-2">НАШИ УСЛУГИ</div>
                         <div class="footer__content footer__content-one">
@@ -1307,6 +1234,6 @@
 
     </div>
 </footer>
-<script defer src="js/main.js?v=6e7fa03225bcd08cbc8ac6bb2bec66f7"></script>
+<script defer src="js/main.min.js?v=8f74b725e2152bcb35ebd85e480914c1"></script>
 </body>
 </html>

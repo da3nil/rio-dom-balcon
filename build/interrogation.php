@@ -26,6 +26,7 @@ if (!empty($_POST)) {
 
     $message = "
         <h1>Заявка на расчет стоимости остекления или утепления балкона от rio-dom.ru/balcony</h1>
+        <hr>
         <p>
             <b>Имя:</b>
             <span>$name</span>

@@ -18668,7 +18668,7 @@ k("input"),watchDataMask:!1,byPassKeys:[9,16,17,18,36,37,38,39,40,91],translatio
 
 // Импортируем другие js-файлы
 // jquery link
-$(".intro__menu .animate-l").click(function() {
+$(".intro__menu .animate-l, .footer .animate-l").click(function() {
     let el = $(this)
     $('html, body').animate({
         scrollTop: $(el.attr('href')).offset().top - (screen.height * 0.25)
@@ -18706,7 +18706,18 @@ $("#interrogationModal").on('hidden.bs.modal', function (e) {
     allowShowCityForm = true;
 })
 
-$('#exampleModal').on('shown.bs.modal', function (e) {
+$("#zamer").on('click', function () {
+    let modal = $("#exampleModal");
+    modal.find(".modal__header").text('Для получения бесплатного замера перейдите в удобный для вас мессенджер:');
+    modal.find(".modal__desc-d").text('или же заполните форму для связи со специалистом');
+    modal.find(".intro__btn").text('ВЫЗВАТЬ ЗАМЕРЩИКА');
+})
+
+$('#exampleModal').on('shown.bs.modal', function (event) {
+    // var button = $(event.relatedTarget)
+    // if(button.attr('id') === 'zamer') {
+    //
+    // }
     allowShowCityForm = false;
 })
 
@@ -18717,6 +18728,15 @@ $('#cityModal').on('shown.bs.modal', function (e) {
 
 $('#exampleModal').on('hidden.bs.modal', function (e) {
     allowShowCityForm = true;
+    let modal = $("#exampleModal");
+    modal.find(".modal__header").text('Для получения прайс листа\n' +
+        '                        перейдите в удобный для вас\n' +
+        '                        мессенджер :');
+    modal.find(".intro__btn").text('СКАЧАТЬ ПРАЙС С 10% СКИДКОЙ');
+    modal.find(".modal__desc-d").text('\n' +
+        '                                или же введите номер телефона для получения\n' +
+        '                                прайса в любом удобном для вас мессенджере\n' +
+        '                            ');
 })
 
 $('#cityModal').on('hidden.bs.modal', function (e) {
@@ -19478,7 +19498,7 @@ interrogation.on('slideChange', function () {
             title.text("Выберете материал для шумоизоляции");
             break;
         case 2:
-            title.text("Нужна ли Вам строительная подготовка к утеплению");
+            title.text("Нужн�� ли Вам строительная подготовка к утеплению");
             break;
         case 3:
             title.text("В каком городе Вы находитесь");
